@@ -1,0 +1,18 @@
+{
+  "name": "glemir-docs",
+  "version": "1.0.0",
+  "description": "Glemir 操作説明サイト",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  },
+  "packageManager": "pnpm@10.6.4",
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  }
+}
