@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/GlemirDocs/',
   lang: 'ja',
   title: 'Glemir',
   description: 'Glemir の操作説明サイト',
